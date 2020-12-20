@@ -1,0 +1,25 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* variables */
+:root{
+    
+    /* fonts */
+    --primary-font: 'Open Sans', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+
+    /* colors */
+    --primary-color: white;
+    --secondary-color: #1ABC9C;
+    --witesmoke-color: whitesmoke;
+    --black-color: #1b1b1b;
+    --black-color2: #666;
+    --border-color: #ddd;
+
+    /* box-shadows */
+    --box-shadow: 0px 15px 45px -9px rgba(0,0,0,.2);
+    --box-shadow2: 0px 3px 13px 1px rgba(0,0,0,.12);
+    --box-shadow3: 0 1px 9px rgba(0,0,0,0.05);
+    --box-shadow4: 0 0 40px rgba(0,0,0,0.045);
+
+}

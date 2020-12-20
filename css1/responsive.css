@@ -1,0 +1,28 @@
+@media (max-width:768px){
+    .hero .container{
+        padding: 30px;
+    }
+    .hero .card [class*=col-]{
+        min-height: unset;
+    }
+    .hero .card .row{
+        flex-direction: column-reverse;
+    }
+    .hero .card [class*=col-]:last-child{
+        display: unset;
+    }
+    .hero .card img{
+        max-width: 250px;
+        margin-left: 0;
+    }
+
+    .about-us,
+    .more-info,
+    .testimonials{
+        padding: 50px 10px;
+    }
+
+    .testimonials .card-wrapper{
+        grid-template-columns: 100%;
+    }
+}
