@@ -4,6 +4,7 @@
     }
     .hero .slick-btn .btn{
         width: 50px;
+        display: none;
     }
     .hero .card [class*=col-]{
         min-height: unset;
@@ -34,4 +35,4 @@
     .testimonials .card-wrapper{
         grid-template-columns: 100%;
     }
-}
+}   
